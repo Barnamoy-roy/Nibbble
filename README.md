@@ -86,10 +86,10 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 - Create, edit, or delete your own posts to showcase your work.
 - Upload images for your posts, which will be securely stored in Firebase Cloud Storage.
 
-##Contributing
+## Contributing
 - Contributions are welcome! If you have any suggestions, feature requests, or bug reports, please open an issue or submit a pull request.
 
-##License
+## License
 - This project is licensed under the MIT License.
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
