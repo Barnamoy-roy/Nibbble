@@ -78,7 +78,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-##usage 
+## Usage 
 - Sign in or sign up using Clerk authentication to access the platform.
 - Explore posts created by fellow designers for inspiration.
 - Create, edit, or delete your own posts to showcase your work.
