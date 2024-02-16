@@ -18,6 +18,7 @@ This project is a clone of Dribbble, a popular platform for designers to showcas
 - **Stunning UI/UX**: Employs Tailwind CSS for pixel-perfect styling, ensuring an immersive user experience.
 - **Efficient Server-side Rendering**: Harnesses the power of Next.js for lightning-fast server-side rendering, optimizing performance.
 - **Data Management with Prisma**: Seamlessly integrates Prisma as the ORM for agile and scalable data management.
+- **Globak State Management with Zustand**: Integrated zustand for global state management, carefully created stores for specific state variables.
 - **Robust Authentication**: Implements Clerk for secure authentication, with customizable sign-in and sign-up flows.
 - **Flexible Storage with Firebase**: Utilizes Firebase Cloud Storage for storing user-generated images, ensuring reliability and scalability.
 - **RESTful APIs**: Develops RESTful APIs for seamless communication between the frontend and backend, facilitating smooth data exchange.
@@ -32,6 +33,7 @@ This project is a clone of Dribbble, a popular platform for designers to showcas
 - **Clerk**: An authentication platform for modern applications, offering seamless user management.
 - **Firebase**: A comprehensive platform for building and managing web and mobile applications.
 - **Shadcn**: A library of reusable UI components for React, enhancing development efficiency.
+- **Zustand**: A Minimal & scalable library to manage global states, updating state efficiency.
 
 First clone the repo, 
 ```bash
