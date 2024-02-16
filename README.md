@@ -1,9 +1,46 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Nibbble
+This project is a clone of Dribbble, a popular platform for designers to showcase their work and find inspiration. It is built using Next.js, Prisma, MongoDB, Tailwind CSS, Clerk, Firebase Cloud Storage, and Shadcn.
+
+## Table of Contents
+
+- [Features](#features)
+- [Technologies](#technologies)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
+## Features
+
+- **Stunning UI/UX**: Employs Tailwind CSS for pixel-perfect styling, ensuring an immersive user experience.
+- **Efficient Server-side Rendering**: Harnesses the power of Next.js for lightning-fast server-side rendering, optimizing performance.
+- **Data Management with Prisma**: Seamlessly integrates Prisma as the ORM for agile and scalable data management.
+- **Robust Authentication**: Implements Clerk for secure authentication, with customizable sign-in and sign-up flows.
+- **Flexible Storage with Firebase**: Utilizes Firebase Cloud Storage for storing user-generated images, ensuring reliability and scalability.
+- **RESTful APIs**: Develops RESTful APIs for seamless communication between the frontend and backend, facilitating smooth data exchange.
+- **Component Reusability**: Leverages Shadcn components library for modular UI components, enhancing maintainability and scalability.
+
+## Technologies
+
+- **Next.js**: A React framework for building efficient and scalable web applications.
+- **Prisma**: A modern ORM for Node.js and TypeScript, simplifying database interactions.
+- **MongoDB**: A flexible and scalable NoSQL database for storing application data.
+- **Tailwind CSS**: A utility-first CSS framework for building custom designs with minimal effort.
+- **Clerk**: An authentication platform for modern applications, offering seamless user management.
+- **Firebase**: A comprehensive platform for building and managing web and mobile applications.
+- **Shadcn**: A library of reusable UI components for React, enhancing development efficiency.
 
 First clone the repo, 
-
+```bash
+git clone https://github.com/Barnamoy-roy/Nibbble.git
+```
+move to working directory: 
+```bash
+cd nibbble
+```
 Then, install the node modules by running the command in the root directory:
 
 ```bash
@@ -20,13 +57,6 @@ NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
 NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
 NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/
 NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/
-
-# This was inserted by `prisma init`:
-# Environment variables declared in this file are automatically made available to Prisma.
-# See the documentation for more detail: https://pris.ly/d/prisma-schema#accessing-environment-variables-from-the-schema
-
-# Prisma supports the native connection string format for PostgreSQL, MySQL, SQLite, SQL Server, MongoDB and CockroachDB.
-# See the documentation for all the connection string options: https://pris.ly/d/connection-strings
 
 DATABASE_URL="Enter your database connection url here"
 ```
@@ -47,6 +77,18 @@ bun dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
+##usage 
+- Sign in or sign up using Clerk authentication to access the platform.
+- Explore posts created by fellow designers for inspiration.
+- Create, edit, or delete your own posts to showcase your work.
+- Upload images for your posts, which will be securely stored in Firebase Cloud Storage.
+
+##Contributing
+- Contributions are welcome! If you have any suggestions, feature requests, or bug reports, please open an issue or submit a pull request.
+
+##License
+- This project is licensed under the MIT License.
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
