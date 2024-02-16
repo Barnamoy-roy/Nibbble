@@ -18,7 +18,7 @@ This project is a clone of Dribbble, a popular platform for designers to showcas
 - **Stunning UI/UX**: Employs Tailwind CSS for pixel-perfect styling, ensuring an immersive user experience.
 - **Efficient Server-side Rendering**: Harnesses the power of Next.js for lightning-fast server-side rendering, optimizing performance.
 - **Data Management with Prisma**: Seamlessly integrates Prisma as the ORM for agile and scalable data management.
-- **Globak State Management with Zustand**: Integrated zustand for global state management, carefully created stores for specific state variables.
+- **Global State Management with Zustand**: Integrated zustand for global state management, carefully created stores for specific state variables.
 - **Robust Authentication**: Implements Clerk for secure authentication, with customizable sign-in and sign-up flows.
 - **Flexible Storage with Firebase**: Utilizes Firebase Cloud Storage for storing user-generated images, ensuring reliability and scalability.
 - **RESTful APIs**: Develops RESTful APIs for seamless communication between the frontend and backend, facilitating smooth data exchange.
