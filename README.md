@@ -33,6 +33,9 @@ This project is a clone of Dribbble, a popular platform for designers to showcas
 - **Shadcn**: A library of reusable UI components for React, enhancing development efficiency.
 - **Zustand**: A Minimal & scalable library to manage global states, updating state efficiency.
 
+
+## Getting Started
+
 First clone the repo, 
 ```bash
 git clone https://github.com/Barnamoy-roy/Nibbble.git
